@@ -39,7 +39,7 @@
         <!-- Used to provide an absolute location for the XSLT scripts. -->
         <xslt.scripts.dir>${jbossas.ts.integ.dir}/src/test/xslt</xslt.scripts.dir>
 
-        <ts.skipTests>${skipTests}</ts.skipTests>
+        <ts.skipTests>true</ts.skipTests>
         <enforcer.skip>true</enforcer.skip>
     </properties>
 
